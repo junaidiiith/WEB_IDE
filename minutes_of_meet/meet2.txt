@@ -1,3 +1,5 @@
+2nd meet discussions held on 20/8/2015
+
 links to understand reflection and get started with it.
 try to host ace editor in django
 read documnetation of ace and understand it's intellisense
