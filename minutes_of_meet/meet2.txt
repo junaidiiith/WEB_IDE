@@ -1,0 +1,8 @@
+links to understand reflection and get started with it.
+try to host ace editor in django
+read documnetation of ace and understand it's intellisense
+try some intellisense on ace. Hardcode something and try .
+don't sit to learn c# or java learn as required in learning while learning reflection
+database in mysql
+ajax to get intellisense data
+whatsapp group / 
