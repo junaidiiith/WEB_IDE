@@ -8,5 +8,6 @@ Documents Feedback Team - 9
 ### Project Plan (9/10)
     - Well planned.
     - Update it regularly.
-### Status Tracker 1 (0/5)
-    - File not found.
+    
+### Status Tracker 1 (3/5)
+    - Instructions and team status are not completed.
