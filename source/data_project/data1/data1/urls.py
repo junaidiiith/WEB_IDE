@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^table/', include('table.urls')),
+    url(r'^$', 'acelinker.views.index', name='index'),
     url(r'^admin/', include(admin.site.urls)),
 ]
