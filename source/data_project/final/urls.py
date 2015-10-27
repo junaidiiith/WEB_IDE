@@ -1,4 +1,4 @@
-"""data1 URL Configuration
+"""final URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.8/topics/http/urls/
@@ -17,7 +17,11 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+<<<<<<< HEAD:source/data_project/data1/data1/urls.py
     url(r'^table/', include('table.urls')),
     url(r'^$', 'acelinker.views.index', name='index'),
+=======
+    url(r'^intellisense/', include('intellisense.urls')),
+>>>>>>> 2829a3b5e8bdc7d0e29279a353741052d920c0c7:source/data_project/final/urls.py
     url(r'^admin/', include(admin.site.urls)),
 ]
