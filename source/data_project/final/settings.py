@@ -37,7 +37,12 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD:source/data_project/data1/data1/settings.py
+    'table',
+    'acelinker',
+=======
     'intellisense',
+>>>>>>> 2829a3b5e8bdc7d0e29279a353741052d920c0c7:source/data_project/final/settings.py
 )
 
 MIDDLEWARE_CLASSES = (
@@ -56,7 +61,7 @@ ROOT_URLCONF = 'final.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -100,4 +105,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
+STATIC_ROOT = ''
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+  'assets',os.path.join(BASE_DIR,'static/')
+)
