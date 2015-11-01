@@ -26,5 +26,9 @@ Documents Feedback Team - 9
     
 ### SRS (29/30)
     - Well documented.
+    
+### R1
+
+- Well Presented. Video was very good. Team made a very smooth presentation, Could have explained the features in a more neat manner. Improve that for R2 which is all about your product and its features.
 
     
