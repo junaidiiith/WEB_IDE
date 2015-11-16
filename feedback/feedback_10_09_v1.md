@@ -12,20 +12,29 @@ Documents Feedback Team - 9
 ### Status Tracker 1 (3/5)
     - Instructions and team status are not completed.
     
-### Status Tracker 2 (2/5) (14 - 21)
-    - Incomplete.
-    - Please the dates as specified in the moodle for status trackers.
+### Status Tracker 2 (5/5) 
+    - Well Done.
     
-### Status Tracker 3 (0/5)
+### Status Tracker 3 (5/5)
+    - Well Done.
+    
+### Status Tracker 4 (5/5)
+    - Well Done.
+    
+### Status Tracker 5 (0/5)
     - Not found.
     
-### Status Tracker 4 (0/5)
-    - Not found.
+### Project Test Plan (9/10)
+    - Well done but remove blank rows and columns.
     
-### Project Test Plan (0/10)
-    - Not found.
-    
-### SRS (28/30)
+### SRS (29/30)
     - Well documented.
+    
+### R1 feedback  
+    - Well Presented. 
+    - Video was very good. 
+    - Team made a very smooth presentation.
+    - Could have explained the features in a more neat manner.
+    - Improve that for R2 which is all about your product and its features.
 
     
