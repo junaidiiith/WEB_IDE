@@ -5,7 +5,13 @@ from .models import language_table,data_table,class_table
 
 # Create your views here.
 def getdata(request,language_name,class_list):
-        return HttpResponse (language_name)
+        language_id=0
+        if (language_name == 'csharp'):
+            language_id = 2
+        elif (language_name == 'java'):
+            language_id = 1
+        elif (language_name == 'c_cpp'):
+            language_id = 3
         classlist = class_list.split(',')
 	classobjectlist = class_table.objects.filter(class_name__in=classlist)
 	classidlist = classobjectlist.values_list('class_id_value',flat=True)
