@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>ACE in Action</title>
+<title>AssessMachines Code Editor</title>
 <style type="text/css" media="screen">
     #editor { 
         position: absolute;
@@ -31,7 +31,7 @@
 <script>
     var temp;
     var lang="";
-    var libc=[];
+    var libc="";
     var langTools = ace.require("ace/ext/language_tools");
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
@@ -50,7 +50,7 @@
                 $.ajax({
                 datatype: "json",
                 type:'GET',
-                url: '/table',
+                url: '/data/c_cpp/',
                 success: function(data){
                   cstring = jQuery.parseJSON(data);
                 callback(null, cstring.map(function(fn){
@@ -70,13 +70,13 @@
       {
         if(lang=="c_cpp")
         {
-          var lashit = editor.getValue();
-          var jain = lashit.match(/#include<[a-z.]*>/g);
-          for(var i = 0; i< jain.length ;i++)
+          var code = editor.getValue();
+          var temp = code.match(/#include[ ]*<[a-z.]+>/g);
+          for(var i = 0; i< temp.length ;i++)
           {
-            libc[i] = (jain[i].substring(9,jain[i].length-1));
+            libc[i] = libc[i].match(/[a-z]+.h/g);
+            console.log(libc[i][0]);
           }
-          //console.log(libc);Runs perfectly
         }
       }, 1000);
     langTools.addCompleter(functionExtractor);
