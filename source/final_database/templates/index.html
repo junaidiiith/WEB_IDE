@@ -29,9 +29,9 @@
 <script src={% static 'funcSignatures.js' %} type='text/javascript' charset='	utf-8'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
-    var temp;
     var lang="";
     var libc="";
+    var len = 0;
     var langTools = ace.require("ace/ext/language_tools");
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
@@ -72,11 +72,17 @@
         {
           var code = editor.getValue();
           var temp = code.match(/#include[ ]*<[a-z.]+>/g);
-          for(var i = 0; i< temp.length ;i++)
+          if(temp.length > len)
           {
-            libc[i] = libc[i].match(/[a-z]+.h/g);
-            console.log(libc[i][0]);
+            for(var i = len; i< temp.length ;i++)
+            {
+              var foo = temp[i].match(/[a-z]+.h/g);
+              console.log(foo[0]);  
+              libc = libc.concat(foo[0]).concat(",");
+            }
+            len = temp.length;
           }
+          console.log(libc);
         }
       }, 1000);
     langTools.addCompleter(functionExtractor);
