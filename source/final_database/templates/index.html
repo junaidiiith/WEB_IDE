@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AssessMachines Code Editor</title>
+<style type="text/css" media="screen">
+    #editor { 
+        position: absolute;
+        top: 6%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+</style>
+</head>
+<body>
+<select id="languages" onchange="chagLang()">
+  <option value="text">Choose Language</option>
+  <option value="java">Java</option>
+  <option value="c_cpp">C</option>
+  <option value="c_cpp">C++</option>
+  <option value="csharp">C#</option>
+</select>
+<br>
+<div id="editor">//Your code goes here..
+</div>
+{% load staticfiles %}
+<script src={% static 'src-noconflict/ace.js' %} type='text/javascript' charset='utf-8'></script>
+<script src={% static 'src-noconflict/ext-language_tools.js' %} type='text/javascript' charset='utf-8'></script>
+<script src={% static 'funcSignatures.js' %} type='text/javascript' charset=' utf-8'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    var lang="";
+    var libc="";
+    var len = 0;
+    var langTools = ace.require("ace/ext/language_tools");
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+
+    chagLang = function ()
+    {
+      temp = document.getElementById("languages");
+      lang = temp.options[temp.selectedIndex].value;
+      console.log(lang);
+      var langpath = "ace/mode/";
+      editor.getSession().setMode(langpath.concat(lang));
+    }
+    var functionExtractor = {
+        getCompletions: function(editor, session, pos, prefix, callback) {
+            $(function (){
+              var iurl = "data/";
+              iurl = iurl.concat(lang);
+              iurl = iurl.concat("/");
+              iurl = iurl.concat(libc);
+              console.log(iurl);
+                $.ajax({
+                datatype: "json",
+                type:'GET',
+                url: iurl,
+                success: function(data){
+                  cstring = jQuery.parseJSON(data);
+                callback(null, cstring.map(function(fn){
+                  if(fn.fields.method_name.indexOf(prefix)>-1)
+                  {
+                    console.log("Script ran successfully");
+                  }
+                  return {name: fn.fields.method_name, value: fn.fields.method_name, score:0, meta: "functions"}; 
+                }));
+              }
+              }); 
+
+          });
+        }
+    }
+      window.setInterval(function()
+      {
+        if(lang=="c_cpp")
+        {
+          var code = editor.getValue();
+          var temp = code.match(/#include[ ]*<[a-z.]+>/g);
+          if(temp.length > len)
+          {
+            for(var i = len; i< temp.length ;i++)
+            {
+              var foo = temp[i].match(/[a-z]+.h/g);
+              console.log(foo[0]);  
+              libc = libc.concat(foo[0]).concat(",");
+            }
+            len = temp.length;
+          }
+          else if(temp.length < len)
+          {
+            len = temp.length;
+          }
+          console.log(libc);
+        }
+      }, 1000);
+    langTools.addCompleter(functionExtractor);
+    editor.setOptions
+      ({
+       enableBasicAutocompletion: true,
+       enableLiveAutocompletion: true
+      });
+</script>
+</body>
+</html>
+  
