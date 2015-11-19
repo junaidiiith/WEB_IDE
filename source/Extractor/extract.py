@@ -9,9 +9,10 @@ for header_path in path_headers.readlines():
     #print header_path
     try:
         current_header = header_path[:-1]
+        library_name = current_header.split('/')[-1]
         # create a file containing data of currently processing library
-        data_file = "libraries/" + current_header.split('/')[-1][:-2] + "_data"
-        print data_file
+        data_file = "libraries/" + library_name
+
         file_opener = open(current_header)
         content = file_opener.read()
         file_opener.close()
