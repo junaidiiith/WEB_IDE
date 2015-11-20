@@ -2,7 +2,7 @@
 import re
 
 # Open a file containning paths of all headers
-path_headers = open("all_headers_c++")
+path_headers = open("c_stuff/all_headers_c++")
 
 for header_path in path_headers.readlines():
     # Open a header file and store its content in a string
@@ -11,7 +11,7 @@ for header_path in path_headers.readlines():
         current_header = header_path[:-1]
         library_name = current_header.split('/')[-1]
         # create a file containing data of currently processing library
-        data_file = "libraries/" + library_name
+        data_file = "Json_data/c_cpp_libraries/" + library_name
 
         file_opener = open(current_header)
         content = file_opener.read()

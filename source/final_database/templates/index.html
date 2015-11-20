@@ -2,33 +2,64 @@
 <html lang="en">
 <head>
 <title>AssessMachines Code Editor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css" media="screen">
     #editor { 
         position: absolute;
-        top: 6%;
-        right: 0;
+        top: 16%;
+        right: 18%;
         bottom: 0;
-        left: 0;
+        left: 18%;
     }
+    #languages {   
+        position: absolute;
+        top: 10%;
+        right: 68%;
+        bottom: 84%;
+        left: 18%;
+	}
+     #themes {   
+        position: absolute;
+        top: 10%;
+        right: 38%;
+        bottom: 84%;
+        left: 76%;
+	}
+     .img {
+	 position: absolute;	  
+	width: 100%;
+	height: 100%;
+	}		
+    
 </style>
 </head>
 <body>
 <select id="languages" onchange="chagLang()">
-  <option value="text">Choose Language</option>
+  <option value="text" selected="selected">Choose Language</option>
   <option value="java">Java</option>
   <option value="c_cpp">C</option>
   <option value="c_cpp">C++</option>
   <option value="csharp">C#</option>
 </select>
-<br>
+<select id="themes" onchange="chagTheme()">
+  <option selected="selected" value="monokai" >Monokai</option>
+  <option value="clouds">Clouds</option>
+</select>
+
 <div id="editor">//Your code goes here..
 </div>
 {% load staticfiles %}
+<img id="img1" src={% static '12.jpeg' %} alt="Mountain View" style="width:100%;height:100%;">
 <script src={% static 'src-noconflict/ace.js' %} type='text/javascript' charset='utf-8'></script>
 <script src={% static 'src-noconflict/ext-language_tools.js' %} type='text/javascript' charset='utf-8'></script>
-<script src={% static 'funcSignatures.js' %} type='text/javascript' charset=' utf-8'></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src={% static 'funcSignatures.js' %} type='text/javascript' charset='utf-8'></script>
+<script src={% static 'bootstrap.min.js' %} type='text/javascript' charset='utf-8'></script>
+<link rel="stylesheet" href={% static 'bootstrap.min.css' %} charset='utf-8'>
+<script src={% static 'jquery-2.0.3.min.js' %} type='text/javascript' charset='utf-8'></script>
 <script>
+$(window).unload(function() {
+  $('select option').remove();
+});
     var lang="";
     var libc="";
     var len = 0;
@@ -44,6 +75,18 @@
       var langpath = "ace/mode/";
       editor.getSession().setMode(langpath.concat(lang));
     }
+
+    chagTheme = function ()
+    {
+      get_theme = document.getElementById("themes");
+      theme = get_theme.options[get_theme.selectedIndex].value;
+      console.log(theme);
+      var theme_path = "ace/theme/";
+      editor.setTheme(theme_path.concat(theme));
+    }
+
+
+
     var functionExtractor = {
         getCompletions: function(editor, session, pos, prefix, callback) {
             $(function (){
@@ -103,4 +146,3 @@
 </script>
 </body>
 </html>
-  
