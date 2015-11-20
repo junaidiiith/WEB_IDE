@@ -26,11 +26,12 @@ public final class Reflect
 			String jarName = "/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar";
 			jar = new JarFile(jarName);
 			Enumeration<JarEntry> entries = jar.entries();
+			
 			while (entries.hasMoreElements())
 			{	
 				JSONObject obj = new JSONObject();
 				List<Field> fs = new ArrayList<Field>();
-				List<Method> ms = new ArrayList<Method>();
+			//	List<Method> ms = new ArrayList<Method>();
 				JarEntry entry = entries.nextElement();
 				if (!entry.getName().endsWith(".class"))	
 				{
@@ -50,14 +51,28 @@ public final class Reflect
 					fs.add(field);
 				}
 				obj.put("Fields", fs);
+//				System.out.println(obj);
 			//	System.out.println(" Methods:");
 				for (Method method : javaClass.getMethods())
-				{
+				{	
+					JSONObject obj1 = new JSONObject();
+					obj1.put("Class Name", javaClass.getClassName());
 			//		System.out.println(" "+method);
-					ms.add(method);
+					obj1.put("Method name",method.getName());
+					//obj1.put("Somet other field",method.getSignature());
+					obj1.put("Return type",method.getReturnType().toString());
+					int tmp = method.getArgumentTypes().length;
+				//	System.out.println("Number of argument=" + tmp);
+					List <String> ArgumentTypes = new ArrayList<String>();
+					for(int j=0;j<tmp;j++)
+						ArgumentTypes.add(method.getArgumentTypes()[j].toString());
+					//System.out.println();
+					obj1.put("Arguments_types", ArgumentTypes);
+					System.out.println(obj1);
 				}
-				obj.put("Methods", ms);
-				System.out.println(obj);
+				
+				System.out.println();
+				System.out.println();
 			}
 		}
 		catch (IOException e)
