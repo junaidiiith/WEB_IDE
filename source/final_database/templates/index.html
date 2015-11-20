@@ -21,9 +21,9 @@
      #themes {   
         position: absolute;
         top: 10%;
-        right: 38%;
+        right: 36%;
         bottom: 84%;
-        left: 76%;
+        left: 74%;
 	}
      .img {
 	 position: absolute;	  
@@ -44,6 +44,7 @@
 <select id="themes" onchange="chagTheme()">
   <option selected="selected" value="monokai" >Monokai</option>
   <option value="clouds">Clouds</option>
+  <option value="katzenmilch">Katzenmilch</option>
 </select>
 
 <div id="editor">//Your code goes here..
@@ -65,7 +66,7 @@ $(window).unload(function() {
     var len = 0;
     var langTools = ace.require("ace/ext/language_tools");
     var editor = ace.edit("editor");
-    editor.setTheme("ace/theme/monokai");
+    editor.setTheme("ace/theme/monokai")
 
     chagLang = function ()
     {
