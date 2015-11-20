@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <title>AssessMachines Code Editor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css" media="screen">
     #editor { 
         position: absolute;
@@ -10,11 +11,24 @@
         bottom: 0;
         left: 18%;
     }
+    #languages {   
+        position: absolute;
+        top: 10%;
+        right: 68%;
+        bottom: 84%;
+        left: 18%;
+	}
+     #themes {   
+        position: absolute;
+        top: 10%;
+        right: 38%;
+        bottom: 84%;
+        left: 76%;
+	}
+    
 </style>
 </head>
 <body>
-<h2>Welcome to Access Machine<h2> 
-<br>    
 <select id="languages" onchange="chagLang()">
   <option value="text">Choose Language</option>
   <option value="java">Java</option>
@@ -22,18 +36,21 @@
   <option value="c_cpp">C++</option>
   <option value="csharp">C#</option>
 </select>
+<select id="themes" onchange="chagTheme()">
+  <option value="monokai">Monokai</option>
+  <option value="clouds">Clouds</option>
+</select>
 
-
-
-
-<br>
 <div id="editor">//Your code goes here..
 </div>
 {% load staticfiles %}
+
 <script src={% static 'src-noconflict/ace.js' %} type='text/javascript' charset='utf-8'></script>
 <script src={% static 'src-noconflict/ext-language_tools.js' %} type='text/javascript' charset='utf-8'></script>
-<script src={% static 'funcSignatures.js' %} type='text/javascript' charset=' utf-8'></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src={% static 'funcSignatures.js' %} type='text/javascript' charset='utf-8'></script>
+<script src={% static 'bootstrap.min.js' %} type='text/javascript' charset='utf-8'></script>
+<link rel="stylesheet" href={% static 'bootstrap.min.css' %} charset='utf-8'>
+<script src={% static 'jquery-2.0.3.min.js' %} type='text/javascript' charset='utf-8'></script>
 <script>
     var lang="";
     var libc="";
@@ -50,6 +67,18 @@
       var langpath = "ace/mode/";
       editor.getSession().setMode(langpath.concat(lang));
     }
+
+    chagTheme = function ()
+    {
+      get_theme = document.getElementById("themes");
+      theme = get_theme.options[get_theme.selectedIndex].value;
+      console.log(theme);
+      var theme_path = "ace/theme/";
+      editor.setTheme(theme_path.concat(theme));
+    }
+
+
+
     var functionExtractor = {
         getCompletions: function(editor, session, pos, prefix, callback) {
             $(function (){
