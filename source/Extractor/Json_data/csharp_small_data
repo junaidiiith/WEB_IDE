@@ -1,0 +1,100 @@
+{"method_name":"get_ParameterName","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeArgumentReferenceExpression"}
+{"method_name":"set_ParameterName","return_type":"System.Void","parameters":["System.String value"],"class_name":"System.CodeDom.CodeArgumentReferenceExpression"}
+{"method_name":"get_UserData","return_type":"System.Collections.IDictionary","parameters":[],"class_name":"System.CodeDom.CodeArgumentReferenceExpression"}
+{"method_name":"Equals","return_type":"System.Boolean","parameters":["Object obj"],"class_name":"System.CodeDom.CodeArgumentReferenceExpression"}
+{"method_name":"GetHashCode","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeArgumentReferenceExpression"}
+{"method_name":"GetType","return_type":"System.Type","parameters":[],"class_name":"System.CodeDom.CodeArgumentReferenceExpression"}
+{"method_name":"ToString","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeArgumentReferenceExpression"}
+{"method_name":"get_CreateType","return_type":"System.CodeDom.CodeTypeReference","parameters":[],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"set_CreateType","return_type":"System.Void","parameters":["CodeTypeReference value"],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"get_Initializers","return_type":"System.CodeDom.CodeExpressionCollection","parameters":[],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"get_SizeExpression","return_type":"System.CodeDom.CodeExpression","parameters":[],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"set_SizeExpression","return_type":"System.Void","parameters":["CodeExpression value"],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"get_Size","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"set_Size","return_type":"System.Void","parameters":["Int32 value"],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"get_UserData","return_type":"System.Collections.IDictionary","parameters":[],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"Equals","return_type":"System.Boolean","parameters":["Object obj"],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"GetHashCode","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"GetType","return_type":"System.Type","parameters":[],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"ToString","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeArrayCreateExpression"}
+{"method_name":"get_Indices","return_type":"System.CodeDom.CodeExpressionCollection","parameters":[],"class_name":"System.CodeDom.CodeArrayIndexerExpression"}
+{"method_name":"get_TargetObject","return_type":"System.CodeDom.CodeExpression","parameters":[],"class_name":"System.CodeDom.CodeArrayIndexerExpression"}
+{"method_name":"set_TargetObject","return_type":"System.Void","parameters":["CodeExpression value"],"class_name":"System.CodeDom.CodeArrayIndexerExpression"}
+{"method_name":"get_UserData","return_type":"System.Collections.IDictionary","parameters":[],"class_name":"System.CodeDom.CodeArrayIndexerExpression"}
+{"method_name":"Equals","return_type":"System.Boolean","parameters":["Object obj"],"class_name":"System.CodeDom.CodeArrayIndexerExpression"}
+{"method_name":"GetHashCode","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeArrayIndexerExpression"}
+{"method_name":"GetType","return_type":"System.Type","parameters":[],"class_name":"System.CodeDom.CodeArrayIndexerExpression"}
+{"method_name":"ToString","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeArrayIndexerExpression"}
+{"method_name":"get_Left","return_type":"System.CodeDom.CodeExpression","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"set_Left","return_type":"System.Void","parameters":["CodeExpression value"],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"get_Right","return_type":"System.CodeDom.CodeExpression","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"set_Right","return_type":"System.Void","parameters":["CodeExpression value"],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"get_LinePragma","return_type":"System.CodeDom.CodeLinePragma","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"set_LinePragma","return_type":"System.Void","parameters":["CodeLinePragma value"],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"get_EndDirectives","return_type":"System.CodeDom.CodeDirectiveCollection","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"get_StartDirectives","return_type":"System.CodeDom.CodeDirectiveCollection","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"get_UserData","return_type":"System.Collections.IDictionary","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"Equals","return_type":"System.Boolean","parameters":["Object obj"],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"GetHashCode","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"GetType","return_type":"System.Type","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"ToString","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeAssignStatement"}
+{"method_name":"get_Event","return_type":"System.CodeDom.CodeEventReferenceExpression","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"set_Event","return_type":"System.Void","parameters":["CodeEventReferenceExpression value"],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"get_Listener","return_type":"System.CodeDom.CodeExpression","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"set_Listener","return_type":"System.Void","parameters":["CodeExpression value"],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"get_LinePragma","return_type":"System.CodeDom.CodeLinePragma","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"set_LinePragma","return_type":"System.Void","parameters":["CodeLinePragma value"],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"get_EndDirectives","return_type":"System.CodeDom.CodeDirectiveCollection","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"get_StartDirectives","return_type":"System.CodeDom.CodeDirectiveCollection","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"get_UserData","return_type":"System.Collections.IDictionary","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"Equals","return_type":"System.Boolean","parameters":["Object obj"],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"GetHashCode","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"GetType","return_type":"System.Type","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"ToString","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeAttachEventStatement"}
+{"method_name":"get_Item","return_type":"System.CodeDom.CodeAttributeArgument","parameters":["Int32 index"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"set_Item","return_type":"System.Void","parameters":["Int32 index","CodeAttributeArgument value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"Add","return_type":"System.Int32","parameters":["CodeAttributeArgument value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"AddRange","return_type":"System.Void","parameters":["CodeAttributeArgument[] value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"AddRange","return_type":"System.Void","parameters":["CodeAttributeArgumentCollection value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"Contains","return_type":"System.Boolean","parameters":["CodeAttributeArgument value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"CopyTo","return_type":"System.Void","parameters":["CodeAttributeArgument[] array","Int32 index"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"IndexOf","return_type":"System.Int32","parameters":["CodeAttributeArgument value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"Insert","return_type":"System.Void","parameters":["Int32 index","CodeAttributeArgument value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"Remove","return_type":"System.Void","parameters":["CodeAttributeArgument value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"get_Count","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"get_Capacity","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"set_Capacity","return_type":"System.Void","parameters":["Int32 value"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"GetEnumerator","return_type":"System.Collections.IEnumerator","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"Clear","return_type":"System.Void","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"RemoveAt","return_type":"System.Void","parameters":["Int32 index"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"Equals","return_type":"System.Boolean","parameters":["Object obj"],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"GetHashCode","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"GetType","return_type":"System.Type","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"ToString","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgumentCollection"}
+{"method_name":"get_Name","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgument"}
+{"method_name":"set_Name","return_type":"System.Void","parameters":["System.String value"],"class_name":"System.CodeDom.CodeAttributeArgument"}
+{"method_name":"get_Value","return_type":"System.CodeDom.CodeExpression","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgument"}
+{"method_name":"set_Value","return_type":"System.Void","parameters":["CodeExpression value"],"class_name":"System.CodeDom.CodeAttributeArgument"}
+{"method_name":"Equals","return_type":"System.Boolean","parameters":["Object obj"],"class_name":"System.CodeDom.CodeAttributeArgument"}
+{"method_name":"GetHashCode","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgument"}
+{"method_name":"GetType","return_type":"System.Type","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgument"}
+{"method_name":"ToString","return_type":"System.String","parameters":[],"class_name":"System.CodeDom.CodeAttributeArgument"}
+{"method_name":"get_Item","return_type":"System.CodeDom.CodeAttributeDeclaration","parameters":["Int32 index"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"set_Item","return_type":"System.Void","parameters":["Int32 index","CodeAttributeDeclaration value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"Add","return_type":"System.Int32","parameters":["CodeAttributeDeclaration value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"AddRange","return_type":"System.Void","parameters":["CodeAttributeDeclaration[] value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"AddRange","return_type":"System.Void","parameters":["CodeAttributeDeclarationCollection value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"Contains","return_type":"System.Boolean","parameters":["CodeAttributeDeclaration value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"CopyTo","return_type":"System.Void","parameters":["CodeAttributeDeclaration[] array","Int32 index"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"IndexOf","return_type":"System.Int32","parameters":["CodeAttributeDeclaration value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"Insert","return_type":"System.Void","parameters":["Int32 index","CodeAttributeDeclaration value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"Remove","return_type":"System.Void","parameters":["CodeAttributeDeclaration value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"get_Count","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"get_Capacity","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"set_Capacity","return_type":"System.Void","parameters":["Int32 value"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"GetEnumerator","return_type":"System.Collections.IEnumerator","parameters":[],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"Clear","return_type":"System.Void","parameters":[],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"RemoveAt","return_type":"System.Void","parameters":["Int32 index"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"Equals","return_type":"System.Boolean","parameters":["Object obj"],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"GetHashCode","return_type":"System.Int32","parameters":[],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}
+{"method_name":"GetType","return_type":"System.Type","parameters":[],"class_name":"System.CodeDom.CodeAttributeDeclarationCollection"}

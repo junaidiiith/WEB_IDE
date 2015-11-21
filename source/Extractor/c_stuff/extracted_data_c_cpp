@@ -1,0 +1,10710 @@
+[{
+  "method_name" : "__assert_fail",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "unsigned int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "__assert_perror_fail",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*",
+	  "arg" : "unsigned int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "__assert",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+}]
+[{
+  "method_name" : "name",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void) (msg))"
+  }
+},
+{
+  "method_name" : "name",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void) (msg))"
+  }
+},
+{
+  "method_name" : "name",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "name",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "__inline",
+  "return_value" : "extern",
+  "arguments" : {
+  }
+},
+{
+  "method_name" : "__attribute__",
+  "return_value" : "__always_inline",
+  "arguments" : {
+  }
+},
+{
+  "method_name" : "(name)",
+  "return_value" : "__typeof",
+  "arguments" : {
+	  "arg" : "name"
+  }
+},
+{
+  "method_name" : "(name)",
+  "return_value" : "__typeof",
+  "arguments" : {
+	  "arg" : "name"
+  }
+}]
+[{
+  "method_name" : "unsigned",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "void)"
+  }
+},
+{
+  "method_name" : "__int32_t",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "void)"
+  }
+},
+{
+  "method_name" : "__int32_t",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "void)"
+  }
+},
+{
+  "method_name" : "name",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "tolower",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "toupper",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "isctype",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "isascii",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "toascii",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "tolower (int"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "toupper (int"
+  }
+},
+{
+  "method_name" : "name",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "__tolower_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "tolower_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "__toupper_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "toupper_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+  }
+}]
+[{
+  "method_name" : "__errno_location",
+  "return_value" : "int*",
+  "arguments" : {
+	  "arg" : "void)"
+  }
+}]
+[{
+  "method_name" : "setlocale",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "lconv",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "newlocale",
+  "return_value" : "__locale_t",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*",
+  }
+},
+{
+  "method_name" : "duplocale",
+  "return_value" : "__locale_t",
+  "arguments" : {
+  }
+},
+{
+  "method_name" : "freelocale",
+  "return_value" : "void",
+  "arguments" : {
+  }
+},
+{
+  "method_name" : "uselocale",
+  "return_value" : "__locale_t",
+  "arguments" : {
+  }
+}]
+[{
+  "method_name" : "__MATH_PRECNAME(function,suffix)",
+  "return_value" : "type",
+  "arguments" : {
+	  "arg" : "function",
+	  "arg" : "suffix"
+  }
+},
+{
+  "method_name" : "__nldbl_nexttowardf",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "float",
+	  "arg" : "long double"
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "nexttowardf",
+	  "arg" : "(float",
+	  "arg" : "long double",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "nexttoward",
+	  "arg" : "(double",
+	  "arg" : "long double",
+	  "arg" : "nextafter)"
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "nexttowardl",
+	  "arg" : "(long double",
+	  "arg" : "long double",
+	  "arg" : "nextafter)"
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH(__MATH_PRECNAME(function,suffix),",
+  "return_value" : "type",
+  "arguments" : {
+	  "arg" : "suffix"
+  }
+},
+{
+  "method_name" : "matherr",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct throw (*"
+  }
+},
+{
+  "method_name" : "matherr",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct exception*"
+  }
+}]
+[{
+  "method_name" : "setjmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "jmp_buf"
+  }
+},
+{
+  "method_name" : "siglongjmp",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "sigjmp_buf",
+	  "arg" : "int"
+  }
+}]
+[{
+  "method_name" : "__sigismember",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const **",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__sigaddset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "**",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__sigdelset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "**",
+	  "arg" : "int"
+  }
+}]
+[{
+  "method_name" : "__sysv_signal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "sysv_signal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "signal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "signal",
+	  "arg" : "(int",
+  }
+},
+{
+  "method_name" : "bsd_signal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "kill",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "killpg",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "raise",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "ssignal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "gsignal",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "psignal",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "psiginfo",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const siginfo_t*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "__sigpause",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigpause",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigblock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigsetmask",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "siggetmask",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "sigemptyset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigfillset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigaddset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "sigdelset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "sigismember",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "sigisemptyset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigandset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t*",
+	  "arg" : "const sigset_t*",
+	  "arg" : "const sigset_t ((1*",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "sigorset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t*",
+	  "arg" : "const sigset_t*",
+	  "arg" : "const sigset_t ((1*",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "sigprocmask",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const sigset_t*",
+	  "arg" : "sigset_t*"
+  }
+},
+{
+  "method_name" : "sigsuspend",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigaction",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const struct sigaction*",
+	  "arg" : "struct sigaction*"
+  }
+},
+{
+  "method_name" : "sigpending",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigwait",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "sigwaitinfo",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t*",
+	  "arg" : "siginfo_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigtimedwait",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t*",
+	  "arg" : "siginfo_t*",
+	  "arg" : "const struct timespec ((1)*"
+  }
+},
+{
+  "method_name" : "sigqueue",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const union sigval"
+  }
+},
+{
+  "method_name" : "sigvec",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const struct sigvec*",
+	  "arg" : "struct sigvec*"
+  }
+},
+{
+  "method_name" : "sigreturn",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct sigcontext*"
+  }
+},
+{
+  "method_name" : "siginterrupt",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigstack",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct sigstack*",
+	  "arg" : "struct sigstack*"
+  }
+},
+{
+  "method_name" : "sigaltstack",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const struct sigaltstack*",
+	  "arg" : "struct sigaltstack*"
+  }
+},
+{
+  "method_name" : "sighold",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigrelse",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigignore",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigset",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "__libc_current_sigrtmin",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "__libc_current_sigrtmax",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+}]
+[{
+  "method_name" : "__sigismember",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const **",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__sigaddset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "**",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__sigdelset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "**",
+	  "arg" : "int"
+  }
+}]
+[{
+  "method_name" : "clock",
+  "return_value" : "clock_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "time",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "time_t*"
+  }
+},
+{
+  "method_name" : "difftime",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "time_t",
+	  "arg" : "time_t"
+  }
+},
+{
+  "method_name" : "mktime",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "strftime",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "strptime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "strftime_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "const struct tm*",
+  }
+},
+{
+  "method_name" : "strptime_l",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "struct tm*",
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "asctime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "ctime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "asctime_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const struct tm*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "ctime_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "tzset",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "stime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "timegm",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "timelocal",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "dysize",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "nanosleep",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const struct timespec*",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_getres",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_gettime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_settime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "const struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_nanosleep",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "int",
+	  "arg" : "const struct timespec*",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_getcpuclockid",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pid_t",
+	  "arg" : "clockid_t*"
+  }
+},
+{
+  "method_name" : "timer_create",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct sigevent*",
+	  "arg" : "timer_t*"
+  }
+},
+{
+  "method_name" : "timer_delete",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t"
+  }
+},
+{
+  "method_name" : "timer_settime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t",
+	  "arg" : "int",
+	  "arg" : "const struct itimerspec*",
+	  "arg" : "struct itimerspec*"
+  }
+},
+{
+  "method_name" : "timer_gettime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t",
+	  "arg" : "struct itimerspec*"
+  }
+},
+{
+  "method_name" : "timer_getoverrun",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t"
+  }
+},
+{
+  "method_name" : "timespec_get",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct timespec*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "getdate_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "struct tm*"
+  }
+}]
+[{
+  "method_name" : "__sysv_signal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "sysv_signal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "signal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "signal",
+	  "arg" : "(int",
+  }
+},
+{
+  "method_name" : "bsd_signal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "kill",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "killpg",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "raise",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "ssignal",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "gsignal",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "psignal",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "psiginfo",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const siginfo_t*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "__sigpause",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigpause",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigblock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigsetmask",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "siggetmask",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "sigemptyset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigfillset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigaddset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "sigdelset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "sigismember",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "sigisemptyset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigandset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t*",
+	  "arg" : "const sigset_t*",
+	  "arg" : "const sigset_t ((1*",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "sigorset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t*",
+	  "arg" : "const sigset_t*",
+	  "arg" : "const sigset_t ((1*",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "sigprocmask",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const sigset_t*",
+	  "arg" : "sigset_t*"
+  }
+},
+{
+  "method_name" : "sigsuspend",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigaction",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const struct sigaction*",
+	  "arg" : "struct sigaction*"
+  }
+},
+{
+  "method_name" : "sigpending",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sigset_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigwait",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "sigwaitinfo",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t*",
+	  "arg" : "siginfo_t ((1)*"
+  }
+},
+{
+  "method_name" : "sigtimedwait",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const sigset_t*",
+	  "arg" : "siginfo_t*",
+	  "arg" : "const struct timespec ((1)*"
+  }
+},
+{
+  "method_name" : "sigqueue",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const union sigval"
+  }
+},
+{
+  "method_name" : "sigvec",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const struct sigvec*",
+	  "arg" : "struct sigvec*"
+  }
+},
+{
+  "method_name" : "sigreturn",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct sigcontext*"
+  }
+},
+{
+  "method_name" : "siginterrupt",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigstack",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct sigstack*",
+	  "arg" : "struct sigstack*"
+  }
+},
+{
+  "method_name" : "sigaltstack",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const struct sigaltstack*",
+	  "arg" : "struct sigaltstack*"
+  }
+},
+{
+  "method_name" : "sighold",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigrelse",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigignore",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sigset",
+  "return_value" : "__sighandler_t",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "__libc_current_sigrtmin",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "__libc_current_sigrtmax",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+}]
+[{
+  "method_name" : "pthread_sigmask",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "pthread_kill",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "pthread_sigqueue",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "int",
+	  "arg" : "const union sigval"
+  }
+}]
+[{
+  "method_name" : "remove",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "rename",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "renameat",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*",
+	  "arg" : "int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "tmpfile",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "tmpfile",
+	  "arg" : "(void)",
+	  "arg" : "tmpfile64"
+  }
+},
+{
+  "method_name" : "tmpfile64",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "tmpnam",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "tmpnam_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "tempnam",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "fclose",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fflush",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fflush_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fcloseall",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fopen",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "freopen",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "fopen",
+	  "arg" : "(const char*",
+	  "arg" : "const char*",
+	  "arg" : "fopen64"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "freopen",
+	  "arg" : "(const char*",
+	  "arg" : "const char*",
+	  "arg" : "FILE*",
+	  "arg" : "freopen64"
+  }
+},
+{
+  "method_name" : "fopen64",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "freopen64",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fdopen",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "fopencookie",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "const char*",
+	  "arg" : "_IO_cookie_io_functions_t"
+  }
+},
+{
+  "method_name" : "fmemopen",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "open_memstream",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t*"
+  }
+},
+{
+  "method_name" : "setbuf",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "setvbuf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "setbuffer",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "char*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "setlinebuf",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "printf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "sprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list"
+  }
+},
+{
+  "method_name" : "vprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list"
+  }
+},
+{
+  "method_name" : "vsprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list"
+  }
+},
+{
+  "method_name" : "snprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "...)",
+	  "arg" : "3",
+	  "arg" : "4))"
+  }
+},
+{
+  "method_name" : "vsnprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "3",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "vasprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "2",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "__asprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "...)",
+	  "arg" : "2",
+	  "arg" : "3))"
+  }
+},
+{
+  "method_name" : "asprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "...)",
+	  "arg" : "2",
+	  "arg" : "3))"
+  }
+},
+{
+  "method_name" : "vdprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "2",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "dprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*",
+	  "arg" : "...)",
+	  "arg" : "2",
+	  "arg" : "3))"
+  }
+},
+{
+  "method_name" : "fscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "scanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "sscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "fscanf",
+	  "arg" : "(FILE*",
+	  "arg" : "const char*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "scanf",
+	  "arg" : "(const char*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "sscanf",
+	  "arg" : "(const char*",
+	  "arg" : "const char*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__isoc99_fscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_scanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_sscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "2",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "vscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "1",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "vsscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "2",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vfscanf",
+	  "arg" : "(FILE*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "2",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vscanf",
+	  "arg" : "(const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "1",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vsscanf",
+	  "arg" : "(const char*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "2",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "__isoc99_vfscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list"
+  }
+},
+{
+  "method_name" : "__isoc99_vscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list"
+  }
+},
+{
+  "method_name" : "__isoc99_vsscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list"
+  }
+},
+{
+  "method_name" : "fgetc",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "getc",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "getchar",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "getc_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "getchar_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fgetc_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fputc",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "putc",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "putchar",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "fputc_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "putc_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "putchar_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "getw",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "putw",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fgets",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "gets",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "fgets_unlocked",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "__getdelim",
+  "return_value" : "_IO_ssize_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t*",
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "getdelim",
+  "return_value" : "_IO_ssize_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t*",
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "getline",
+  "return_value" : "_IO_ssize_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t*",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fputs",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "puts",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "ungetc",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fread",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fwrite",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fputs_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fread_unlocked",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fwrite_unlocked",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fseek",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "long int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "rewind",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fseeko",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "ftello",
+  "return_value" : "__off_t",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "fseeko",
+	  "arg" : "(FILE*",
+	  "arg" : "int",
+	  "arg" : "fseeko64"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "__off64_t",
+  "arguments" : {
+	  "arg" : "ftello",
+	  "arg" : "(FILE*",
+	  "arg" : "ftello64"
+  }
+},
+{
+  "method_name" : "fgetpos",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "fpos_t*"
+  }
+},
+{
+  "method_name" : "fsetpos",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "const fpos_t*"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "fgetpos",
+	  "arg" : "(FILE*",
+	  "arg" : "fpos_t*",
+	  "arg" : "fgetpos64"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "fsetpos",
+	  "arg" : "(FILE*",
+	  "arg" : "const fpos_t*",
+	  "arg" : "fsetpos64"
+  }
+},
+{
+  "method_name" : "fseeko64",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "ftello64",
+  "return_value" : "__off64_t",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fgetpos64",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "fpos64_t*"
+  }
+},
+{
+  "method_name" : "fsetpos64",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*",
+	  "arg" : "const fpos64_t*"
+  }
+},
+{
+  "method_name" : "clearerr",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "feof",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "ferror",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "clearerr_unlocked",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "feof_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "ferror_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "perror",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "fileno",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "fileno_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "popen",
+  "return_value" : "FILE*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "pclose",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "ctermid",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "cuserid",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "obstack_printf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct obstack*",
+	  "arg" : "const char*",
+	  "arg" : "...)",
+	  "arg" : "2",
+	  "arg" : "3))"
+  }
+},
+{
+  "method_name" : "obstack_vprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct obstack*",
+	  "arg" : "const char*",
+	  "arg" : "_G_va_list",
+	  "arg" : "2",
+	  "arg" : "0))"
+  }
+},
+{
+  "method_name" : "flockfile",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "ftrylockfile",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+},
+{
+  "method_name" : "funlockfile",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "FILE*"
+  }
+}]
+[{
+  "method_name" : "_IO_cookie_init",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "struct _IO_cookie_file*",
+	  "arg" : "int",
+	  "arg" : "void*",
+	  "arg" : "_IO_cookie_io_functions_t"
+  }
+},
+{
+  "method_name" : "__underflow",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+},
+{
+  "method_name" : "__uflow",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+},
+{
+  "method_name" : "__overflow",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__wunderflow",
+  "return_value" : "_IO_wint_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+},
+{
+  "method_name" : "__wuflow",
+  "return_value" : "_IO_wint_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+},
+{
+  "method_name" : "__woverflow",
+  "return_value" : "_IO_wint_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "_IO_wint_t"
+  }
+},
+{
+  "method_name" : "_IO_getc",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE*"
+  }
+},
+{
+  "method_name" : "_IO_putc",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "_IO_FILE*"
+  }
+},
+{
+  "method_name" : "_IO_feof",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE*"
+  }
+},
+{
+  "method_name" : "_IO_ferror",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE*"
+  }
+},
+{
+  "method_name" : "_IO_peekc_locked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE*"
+  }
+},
+{
+  "method_name" : "_IO_flockfile",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+},
+{
+  "method_name" : "_IO_funlockfile",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+},
+{
+  "method_name" : "_IO_ftrylockfile",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+},
+{
+  "method_name" : "_IO_vfscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "const char **",
+	  "arg" : "_IO_va_list",
+	  "arg" : "int*"
+  }
+},
+{
+  "method_name" : "_IO_vfprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE*",
+	  "arg" : "const char*",
+	  "arg" : "_IO_va_list"
+  }
+},
+{
+  "method_name" : "_IO_padn",
+  "return_value" : "_IO_ssize_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "int",
+	  "arg" : "_IO_ssize_t"
+  }
+},
+{
+  "method_name" : "_IO_sgetn",
+  "return_value" : "_IO_size_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "void **",
+	  "arg" : "_IO_size_t"
+  }
+},
+{
+  "method_name" : "_IO_seekoff",
+  "return_value" : "_IO_off64_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "_IO_off64_t",
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "_IO_seekpos",
+  "return_value" : "_IO_off64_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "_IO_off64_t",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "_IO_free_backup_area",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+},
+{
+  "method_name" : "_IO_getwc",
+  "return_value" : "_IO_wint_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE*"
+  }
+},
+{
+  "method_name" : "_IO_putwc",
+  "return_value" : "_IO_wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "_IO_FILE*"
+  }
+},
+{
+  "method_name" : "_IO_fwide",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "_IO_vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "const wchar_t **",
+	  "arg" : "_IO_va_list",
+	  "arg" : "int*"
+  }
+},
+{
+  "method_name" : "_IO_vfwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "_IO_FILE*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "_IO_va_list"
+  }
+},
+{
+  "method_name" : "_IO_wpadn",
+  "return_value" : "_IO_ssize_t",
+  "arguments" : {
+	  "arg" : "_IO_FILE **",
+	  "arg" : "wint_t",
+	  "arg" : "_IO_ssize_t"
+  }
+},
+{
+  "method_name" : "_IO_free_wbackup_area",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "_IO_FILE **"
+  }
+}]
+[{
+  "method_name" : "wcscpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscat",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncat",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "wcsncasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+  }
+},
+{
+  "method_name" : "wcscoll",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsxfrm",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscoll_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "wcsxfrm_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+  }
+},
+{
+  "method_name" : "wcsdup",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcschr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcsrchr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcschrnul",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcscspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcspbrk",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsstr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcstok",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "wcslen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcswcs",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsnlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemchr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemcmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemmove",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemset",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "wchar_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmempcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "btowc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "wctob",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "mbsinit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbrtowc",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcrtomb",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "wchar_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "__mbrlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbrlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "__btowc_alias",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "btowc (int"
+  }
+},
+{
+  "method_name" : "__wctob_alias",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wctob (wint_t"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "mbrlen (const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbsrtowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcsrtombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbsnrtowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcsnrtombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcwidth",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcswidth",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcstod",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "wcstof",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "wcstod_l",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "wcstof_l",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "wcpcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcpncpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "open_wmemstream",
+  "return_value" : "__FILE*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t*"
+  }
+},
+{
+  "method_name" : "fwide",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "fwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "wprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "swprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vswprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "fwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "wscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "swscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "fwscanf",
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "swscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__isoc99_fwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_wscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_swscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vswscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vfwscanf",
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vwscanf",
+	  "arg" : "(const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vswscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vswscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "fgetwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwchar",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fputwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwchar",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "fgetws",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputws",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "ungetwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwchar_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fgetwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwchar_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "fgetws_unlocked",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputws_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "wcsftime",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "wcsftime_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "const struct tm*",
+  }
+}]
+[{
+  "method_name" : "__ctype_get_mb_cur_max",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "atof",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "atoi",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "strtod",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "strtof",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "((1",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "((1",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "((1",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "((1",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "strtod_l",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "((1",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "strtof_l",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "((1",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*",
+	  "arg" : "((1",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "atoi (const char*"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "atol (const char*"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "atoll (const char*"
+  }
+},
+{
+  "method_name" : "l64a",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "long int"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "srandom",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "unsigned int"
+  }
+},
+{
+  "method_name" : "initstate",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "unsigned int",
+	  "arg" : "char*",
+	  "arg" : "size_t ((2)"
+  }
+},
+{
+  "method_name" : "setstate",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "random_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct random_data*",
+	  "arg" : "int32_t ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "srandom_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "unsigned int",
+	  "arg" : "struct random_data ((2)*"
+  }
+},
+{
+  "method_name" : "initstate_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "unsigned int",
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "struct random_data ((2*",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "setstate_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "struct random_data ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "rand",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "srand",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "unsigned int"
+  }
+},
+{
+  "method_name" : "rand_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "unsigned int*"
+  }
+},
+{
+  "method_name" : "drand48",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "srand48",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "long int"
+  }
+},
+{
+  "method_name" : "drand48_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct drand48_data*",
+	  "arg" : "double ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "lrand48_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct drand48_data*",
+	  "arg" : "long int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "mrand48_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct drand48_data*",
+	  "arg" : "long int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "srand48_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "long int",
+	  "arg" : "struct drand48_data ((2)*"
+  }
+},
+{
+  "method_name" : "malloc",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "calloc",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "size_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "realloc",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "free",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void*"
+  }
+},
+{
+  "method_name" : "cfree",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void*"
+  }
+},
+{
+  "method_name" : "valloc",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "posix_memalign",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "aligned_alloc",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "size_t",
+	  "arg" : "size_t ((2)"
+  }
+},
+{
+  "method_name" : "abort",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void)"
+  }
+},
+{
+  "method_name" : "atexit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void (void)) ((1)*"
+  }
+},
+{
+  "method_name" : "at_quick_exit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void (void)) ((1)*"
+  }
+},
+{
+  "method_name" : "on_exit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void (int*",
+	  "arg" : "void*",
+	  "arg" : "void ((1)*"
+  }
+},
+{
+  "method_name" : "exit",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "quick_exit",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "_Exit",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "getenv",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "secure_getenv",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "putenv",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "setenv",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "int ((2)"
+  }
+},
+{
+  "method_name" : "unsetenv",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "clearenv",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "mktemp",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "mkstemp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "mkstemp",
+	  "arg" : "(char*",
+	  "arg" : "mkstemp64) ((1)"
+  }
+},
+{
+  "method_name" : "mkstemp64",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "mkstemps",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "mkstemps",
+	  "arg" : "(char*",
+	  "arg" : "int",
+	  "arg" : "mkstemps64) ((1)"
+  }
+},
+{
+  "method_name" : "mkstemps64",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "mkdtemp",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "mkostemp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "mkostemp",
+	  "arg" : "(char*",
+	  "arg" : "int",
+	  "arg" : "mkostemp64) ((1)"
+  }
+},
+{
+  "method_name" : "mkostemp64",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "mkostemps",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "mkostemps",
+	  "arg" : "(char*",
+	  "arg" : "int",
+	  "arg" : "int",
+	  "arg" : "mkostemps64) ((1)"
+  }
+},
+{
+  "method_name" : "mkostemps64",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "system",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "canonicalize_file_name",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "realpath",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "bsearch",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "const void*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "((1",
+	  "arg" : "2",
+	  "arg" : "5)"
+  }
+},
+{
+  "method_name" : "qsort",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "((1",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "qsort_r",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "void ((1*",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "abs",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "long int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "long long int"
+  }
+},
+{
+  "method_name" : "div",
+  "return_value" : "div_t",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "ldiv",
+  "return_value" : "ldiv_t",
+  "arguments" : {
+	  "arg" : "long int",
+	  "arg" : "long int"
+  }
+},
+{
+  "method_name" : "lldiv",
+  "return_value" : "lldiv_t",
+  "arguments" : {
+	  "arg" : "long long int",
+	  "arg" : "long long int"
+  }
+},
+{
+  "method_name" : "ecvt",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "double",
+	  "arg" : "int",
+	  "arg" : "int*",
+	  "arg" : "int ((3*",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "fcvt",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "double",
+	  "arg" : "int",
+	  "arg" : "int*",
+	  "arg" : "int ((3*",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "gcvt",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "double",
+	  "arg" : "int",
+	  "arg" : "char ((3)*"
+  }
+},
+{
+  "method_name" : "qecvt",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "long double",
+	  "arg" : "int",
+	  "arg" : "int*",
+	  "arg" : "int ((3*",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "qfcvt",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "long double",
+	  "arg" : "int",
+	  "arg" : "int*",
+	  "arg" : "int ((3*",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "qgcvt",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "long double",
+	  "arg" : "int",
+	  "arg" : "char ((3)*"
+  }
+},
+{
+  "method_name" : "ecvt_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "double",
+	  "arg" : "int",
+	  "arg" : "int*",
+	  "arg" : "int*",
+	  "arg" : "char*",
+	  "arg" : "size_t ((3",
+	  "arg" : "4",
+	  "arg" : "5)"
+  }
+},
+{
+  "method_name" : "fcvt_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "double",
+	  "arg" : "int",
+	  "arg" : "int*",
+	  "arg" : "int*",
+	  "arg" : "char*",
+	  "arg" : "size_t ((3",
+	  "arg" : "4",
+	  "arg" : "5)"
+  }
+},
+{
+  "method_name" : "qecvt_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "long double",
+	  "arg" : "int",
+	  "arg" : "int*",
+	  "arg" : "int*",
+	  "arg" : "char*",
+	  "arg" : "size_t ((3",
+	  "arg" : "4",
+	  "arg" : "5)"
+  }
+},
+{
+  "method_name" : "qfcvt_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "long double",
+	  "arg" : "int",
+	  "arg" : "int*",
+	  "arg" : "int*",
+	  "arg" : "char*",
+	  "arg" : "size_t ((3",
+	  "arg" : "4",
+	  "arg" : "5)"
+  }
+},
+{
+  "method_name" : "mblen",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "mbtowc",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wctomb",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "mbstowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcstombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "rpmatch",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "getsubopt",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "char *const*",
+	  "arg" : "char ((1*",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "setkey",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "posix_openpt",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "grantpt",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "unlockpt",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "ptsname",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "ptsname_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "char*",
+	  "arg" : "size_t ((2)"
+  }
+},
+{
+  "method_name" : "getpt",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+}]
+[{
+  "method_name" : "clock",
+  "return_value" : "clock_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "time",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "time_t*"
+  }
+},
+{
+  "method_name" : "difftime",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "time_t",
+	  "arg" : "time_t"
+  }
+},
+{
+  "method_name" : "mktime",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "strftime",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "strptime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "strftime_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "const struct tm*",
+  }
+},
+{
+  "method_name" : "strptime_l",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "struct tm*",
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "asctime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "ctime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "asctime_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const struct tm*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "ctime_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "tzset",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "stime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "timegm",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "timelocal",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "dysize",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "nanosleep",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const struct timespec*",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_getres",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_gettime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_settime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "const struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_nanosleep",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "int",
+	  "arg" : "const struct timespec*",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_getcpuclockid",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pid_t",
+	  "arg" : "clockid_t*"
+  }
+},
+{
+  "method_name" : "timer_create",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct sigevent*",
+	  "arg" : "timer_t*"
+  }
+},
+{
+  "method_name" : "timer_delete",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t"
+  }
+},
+{
+  "method_name" : "timer_settime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t",
+	  "arg" : "int",
+	  "arg" : "const struct itimerspec*",
+	  "arg" : "struct itimerspec*"
+  }
+},
+{
+  "method_name" : "timer_gettime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t",
+	  "arg" : "struct itimerspec*"
+  }
+},
+{
+  "method_name" : "timer_getoverrun",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t"
+  }
+},
+{
+  "method_name" : "timespec_get",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct timespec*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "getdate_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "struct tm*"
+  }
+}]
+[{
+  "method_name" : "select",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "fd_set*",
+	  "arg" : "fd_set*",
+	  "arg" : "fd_set*",
+	  "arg" : "struct timeval*"
+  }
+},
+{
+  "method_name" : "pselect",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "fd_set*",
+	  "arg" : "fd_set*",
+	  "arg" : "fd_set*",
+	  "arg" : "const struct timespec*",
+	  "arg" : "const*"
+  }
+}]
+[{
+  "method_name" : "__sigismember",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const **",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__sigaddset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "**",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__sigdelset",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "**",
+	  "arg" : "int"
+  }
+}]
+[{
+  "method_name" : "clock",
+  "return_value" : "clock_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "time",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "time_t*"
+  }
+},
+{
+  "method_name" : "difftime",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "time_t",
+	  "arg" : "time_t"
+  }
+},
+{
+  "method_name" : "mktime",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "strftime",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "strptime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "strftime_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "const struct tm*",
+  }
+},
+{
+  "method_name" : "strptime_l",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "struct tm*",
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "asctime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "ctime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "asctime_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const struct tm*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "ctime_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "tzset",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "stime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "timegm",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "timelocal",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "dysize",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "nanosleep",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const struct timespec*",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_getres",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_gettime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_settime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "const struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_nanosleep",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "int",
+	  "arg" : "const struct timespec*",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_getcpuclockid",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pid_t",
+	  "arg" : "clockid_t*"
+  }
+},
+{
+  "method_name" : "timer_create",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct sigevent*",
+	  "arg" : "timer_t*"
+  }
+},
+{
+  "method_name" : "timer_delete",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t"
+  }
+},
+{
+  "method_name" : "timer_settime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t",
+	  "arg" : "int",
+	  "arg" : "const struct itimerspec*",
+	  "arg" : "struct itimerspec*"
+  }
+},
+{
+  "method_name" : "timer_gettime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t",
+	  "arg" : "struct itimerspec*"
+  }
+},
+{
+  "method_name" : "timer_getoverrun",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t"
+  }
+},
+{
+  "method_name" : "timespec_get",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct timespec*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "getdate_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "struct tm*"
+  }
+}]
+[{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "clock_adjtime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct timex*"
+  }
+}]
+[{
+  "method_name" : "int",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "unsigned long long int"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "unsigned long long int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "unsigned int",
+	  "arg" : "unsigned int"
+  }
+},
+{
+  "method_name" : "unsigned",
+  "return_value" : "__attribute_const__",
+  "arguments" : {
+	  "arg" : "gnu_dev_major (unsigned long long int"
+  }
+},
+{
+  "method_name" : "unsigned",
+  "return_value" : "__attribute_const__",
+  "arguments" : {
+	  "arg" : "gnu_dev_minor (unsigned long long int"
+  }
+},
+{
+  "method_name" : "unsigned",
+  "return_value" : "__attribute_const__",
+  "arguments" : {
+	  "arg" : "gnu_dev_makedev (unsigned int",
+	  "arg" : "unsigned int"
+  }
+}]
+[{
+  "method_name" : "alloca",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "size_t"
+  }
+}]
+[{
+  "method_name" : "__NTH",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "atof (const char*"
+  }
+}]
+[{
+  "method_name" : "memcpy",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "const void*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "memmove",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "const void*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "memccpy",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "const void*",
+	  "arg" : "int",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "memset",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "int",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "memcmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "const void*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "memchr",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "int",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "void",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "int",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "int",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "void",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "int",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "memchr",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "int",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "rawmemchr",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "memrchr",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "int",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "strcpy",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strncpy",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strcat",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strncat",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strcmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strncmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strcoll",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strxfrm",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t ((2)"
+  }
+},
+{
+  "method_name" : "strcoll_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "((1",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "strxfrm_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "((2",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "strdup",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "strndup",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "strchr",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "strchr",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "strrchr",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "strrchr",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "strchrnul",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "strcspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strpbrk",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "strpbrk",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strstr",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "strstr",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strtok",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char ((2)*"
+  }
+},
+{
+  "method_name" : "__strtok_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "char ((2*",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "strtok_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "char ((2*",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "strcasestr",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "memmem",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "size_t",
+	  "arg" : "const void*",
+	  "arg" : "size_t ((1",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "__mempcpy",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "const void*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "mempcpy",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "const void*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+},
+{
+  "method_name" : "strnlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "strerror",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "strerror_r",
+	  "arg" : "(int",
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "((2)"
+  }
+},
+{
+  "method_name" : "__xpg_strerror_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "char*",
+	  "arg" : "size_t ((2)"
+  }
+},
+{
+  "method_name" : "strerror_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "char*",
+	  "arg" : "size_t ((2)"
+  }
+},
+{
+  "method_name" : "strerror_l",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "__bzero",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "bcopy",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "void*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "bzero",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "bcmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const void*",
+	  "arg" : "const void*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "index",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "index",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "rindex",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "char",
+  "return_value" : "const",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "rindex",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "ffs",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "ffsl",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "long int"
+  }
+},
+{
+  "method_name" : "ffsll",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "long long int"
+  }
+},
+{
+  "method_name" : "strcasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strncasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strcasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "((1",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "strncasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "((1",
+	  "arg" : "2",
+	  "arg" : "4)"
+  }
+},
+{
+  "method_name" : "strsep",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strsignal",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__stpcpy",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "stpcpy",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "__stpncpy",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "stpncpy",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const char*",
+	  "arg" : "size_t ((1",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strverscmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "strfry",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "char ((1)*"
+  }
+},
+{
+  "method_name" : "memfrob",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "void*",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "basename",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char ((1)*"
+  }
+}]
+[{
+  "method_name" : "clock",
+  "return_value" : "clock_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "time",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "time_t*"
+  }
+},
+{
+  "method_name" : "difftime",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "time_t",
+	  "arg" : "time_t"
+  }
+},
+{
+  "method_name" : "mktime",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "strftime",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "strptime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "strftime_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "size_t",
+	  "arg" : "const char*",
+	  "arg" : "const struct tm*",
+  }
+},
+{
+  "method_name" : "strptime_l",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "struct tm*",
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "asctime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "ctime",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "asctime_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const struct tm*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "ctime_r",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const time_t*",
+	  "arg" : "char*"
+  }
+},
+{
+  "method_name" : "tzset",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "stime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const time_t*"
+  }
+},
+{
+  "method_name" : "timegm",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "timelocal",
+  "return_value" : "time_t",
+  "arguments" : {
+	  "arg" : "struct tm*"
+  }
+},
+{
+  "method_name" : "dysize",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "nanosleep",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const struct timespec*",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_getres",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_gettime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_settime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "const struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_nanosleep",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "int",
+	  "arg" : "const struct timespec*",
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "clock_getcpuclockid",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pid_t",
+	  "arg" : "clockid_t*"
+  }
+},
+{
+  "method_name" : "timer_create",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "clockid_t",
+	  "arg" : "struct sigevent*",
+	  "arg" : "timer_t*"
+  }
+},
+{
+  "method_name" : "timer_delete",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t"
+  }
+},
+{
+  "method_name" : "timer_settime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t",
+	  "arg" : "int",
+	  "arg" : "const struct itimerspec*",
+	  "arg" : "struct itimerspec*"
+  }
+},
+{
+  "method_name" : "timer_gettime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t",
+	  "arg" : "struct itimerspec*"
+  }
+},
+{
+  "method_name" : "timer_getoverrun",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "timer_t"
+  }
+},
+{
+  "method_name" : "timespec_get",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct timespec*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "tm",
+  "return_value" : "struct",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "getdate_r",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "struct tm*"
+  }
+}]
+[{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "clock_adjtime",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct timex*"
+  }
+}]
+[{
+  "method_name" : "wcscpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscat",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncat",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "wcsncasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+  }
+},
+{
+  "method_name" : "wcscoll",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsxfrm",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscoll_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "wcsxfrm_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+  }
+},
+{
+  "method_name" : "wcsdup",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcschr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcsrchr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcschrnul",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcscspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcspbrk",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsstr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcstok",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "wcslen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcswcs",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsnlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemchr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemcmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemmove",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemset",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "wchar_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmempcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "btowc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "wctob",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "mbsinit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbrtowc",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcrtomb",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "wchar_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "__mbrlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbrlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "__btowc_alias",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "btowc (int"
+  }
+},
+{
+  "method_name" : "__wctob_alias",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wctob (wint_t"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "mbrlen (const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbsrtowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcsrtombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbsnrtowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcsnrtombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcwidth",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcswidth",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcstod",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "wcstof",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "wcstod_l",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "wcstof_l",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "wcpcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcpncpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "open_wmemstream",
+  "return_value" : "__FILE*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t*"
+  }
+},
+{
+  "method_name" : "fwide",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "fwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "wprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "swprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vswprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "fwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "wscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "swscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "fwscanf",
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "swscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__isoc99_fwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_wscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_swscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vswscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vfwscanf",
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vwscanf",
+	  "arg" : "(const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vswscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vswscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "fgetwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwchar",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fputwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwchar",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "fgetws",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputws",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "ungetwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwchar_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fgetwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwchar_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "fgetws_unlocked",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputws_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "wcsftime",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "wcsftime_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "const struct tm*",
+  }
+}]
+[{
+  "method_name" : "wcscpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscat",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncat",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "wcsncasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+  }
+},
+{
+  "method_name" : "wcscoll",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsxfrm",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscoll_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "wcsxfrm_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+  }
+},
+{
+  "method_name" : "wcsdup",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcschr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcsrchr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcschrnul",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcscspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcspbrk",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsstr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcstok",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "wcslen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcswcs",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsnlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemchr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemcmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemmove",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemset",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "wchar_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmempcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "btowc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "wctob",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "mbsinit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbrtowc",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcrtomb",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "wchar_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "__mbrlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbrlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "__btowc_alias",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "btowc (int"
+  }
+},
+{
+  "method_name" : "__wctob_alias",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wctob (wint_t"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "mbrlen (const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbsrtowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcsrtombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbsnrtowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcsnrtombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcwidth",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcswidth",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcstod",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "wcstof",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "wcstod_l",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "wcstof_l",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "wcpcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcpncpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "open_wmemstream",
+  "return_value" : "__FILE*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t*"
+  }
+},
+{
+  "method_name" : "fwide",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "fwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "wprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "swprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vswprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "fwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "wscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "swscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "fwscanf",
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "swscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__isoc99_fwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_wscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_swscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vswscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vfwscanf",
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vwscanf",
+	  "arg" : "(const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vswscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vswscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "fgetwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwchar",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fputwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwchar",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "fgetws",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputws",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "ungetwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwchar_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fgetwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwchar_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "fgetws_unlocked",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputws_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "wcsftime",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "wcsftime_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "const struct tm*",
+  }
+}]
+[{
+  "method_name" : "pthread_create",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t*",
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "void (void *)*",
+	  "arg" : "void ((1*",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "pthread_exit",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void*"
+  }
+},
+{
+  "method_name" : "pthread_join",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "void*"
+  }
+},
+{
+  "method_name" : "pthread_tryjoin_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "void*"
+  }
+},
+{
+  "method_name" : "pthread_timedjoin_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "void*",
+	  "arg" : "const struct timespec*"
+  }
+},
+{
+  "method_name" : "pthread_detach",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t"
+  }
+},
+{
+  "method_name" : "pthread_self",
+  "return_value" : "pthread_t",
+  "arguments" : {
+	  "arg" : "void)"
+  }
+},
+{
+  "method_name" : "pthread_equal",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "pthread_t"
+  }
+},
+{
+  "method_name" : "pthread_attr_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_attr_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_attr_getdetachstate",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setdetachstate",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_attr_getguardsize",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "size_t ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setguardsize",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "pthread_attr_getschedparam",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "struct sched_param ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setschedparam",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "const struct sched_param ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_getschedpolicy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setschedpolicy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_attr_getinheritsched",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setinheritsched",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_attr_getscope",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setscope",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_attr_getstackaddr",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "void ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setstackaddr",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "void ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_attr_getstacksize",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "size_t ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setstacksize",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "pthread_attr_getstack",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "void*",
+	  "arg" : "size_t ((1*",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setstack",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "void*",
+	  "arg" : "size_t ((1)"
+  }
+},
+{
+  "method_name" : "pthread_attr_setaffinity_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t*",
+	  "arg" : "size_t",
+	  "arg" : "const cpu_set_t ((1*",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "pthread_attr_getaffinity_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t*",
+	  "arg" : "size_t",
+	  "arg" : "cpu_set_t ((1*",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "pthread_getattr_default_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_attr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_setattr_default_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_attr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_getattr_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "pthread_attr_t ((2)*"
+  }
+},
+{
+  "method_name" : "pthread_setschedparam",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "int",
+	  "arg" : "const struct sched_param ((3)*"
+  }
+},
+{
+  "method_name" : "pthread_getschedparam",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "int*",
+	  "arg" : "struct sched_param ((2*",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "pthread_setschedprio",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "pthread_getname_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "char*",
+	  "arg" : "size_t ((2)"
+  }
+},
+{
+  "method_name" : "pthread_setname_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "const char ((2)*"
+  }
+},
+{
+  "method_name" : "pthread_getconcurrency",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "pthread_setconcurrency",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "pthread_yield",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "pthread_setaffinity_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "size_t",
+	  "arg" : "const cpu_set_t ((3)*"
+  }
+},
+{
+  "method_name" : "pthread_getaffinity_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "size_t",
+	  "arg" : "cpu_set_t ((3)*"
+  }
+},
+{
+  "method_name" : "pthread_once",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_once_t*",
+	  "arg" : "void (void)) ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_setcancelstate",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int*"
+  }
+},
+{
+  "method_name" : "pthread_setcanceltype",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int*"
+  }
+},
+{
+  "method_name" : "pthread_cancel",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t"
+  }
+},
+{
+  "method_name" : "pthread_testcancel",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "__pthread_cleanup_routine",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "struct*"
+  }
+},
+{
+  "method_name" : "__pthread_register_cancel",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "__pthread_unregister_cancel",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "__pthread_register_cancel_defer",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "__pthread_unregister_cancel_restore",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "__pthread_unwind_next",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "__sigsetjmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "pthread_mutex_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t*",
+	  "arg" : "const pthread_mutexattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutex_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutex_trylock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutex_lock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutex_timedlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t*",
+	  "arg" : "const struct timespec ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_mutex_unlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutex_getprioceiling",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_mutex_t **",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_mutex_setprioceiling",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t*",
+	  "arg" : "int",
+	  "arg" : "int ((1*",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "pthread_mutex_consistent",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutex_consistent_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutex_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutexattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutexattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_getpshared",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_mutexattr_t **",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_setpshared",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutexattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_gettype",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_mutexattr_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_settype",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutexattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_getprotocol",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_mutexattr_t **",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_setprotocol",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutexattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_getprioceiling",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_mutexattr_t **",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_setprioceiling",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutexattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_getrobust",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_mutexattr_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_getrobust_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_mutexattr_t*",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_setrobust",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutexattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_mutexattr_setrobust_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_mutexattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t*",
+	  "arg" : "const pthread_rwlockattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_rdlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_tryrdlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_timedrdlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t*",
+	  "arg" : "const struct timespec ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_wrlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_trywrlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_timedwrlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t*",
+	  "arg" : "const struct timespec ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_rwlock_unlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlockattr_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlockattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlockattr_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlockattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_rwlockattr_getpshared",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_rwlockattr_t **",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_rwlockattr_setpshared",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlockattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_rwlockattr_getkind_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_rwlockattr_t **",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_rwlockattr_setkind_np",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_rwlockattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_cond_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_cond_t*",
+	  "arg" : "const pthread_condattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_cond_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_cond_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_cond_signal",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_cond_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_cond_broadcast",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_cond_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_cond_wait",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_cond_t*",
+	  "arg" : "pthread_mutex_t ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_cond_timedwait",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_cond_t*",
+	  "arg" : "pthread_mutex_t*",
+	  "arg" : "const struct timespec ((1*",
+	  "arg" : "2",
+	  "arg" : "3)"
+  }
+},
+{
+  "method_name" : "pthread_condattr_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_condattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_condattr_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_condattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_condattr_getpshared",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_condattr_t **",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_condattr_setpshared",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_condattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_condattr_getclock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_condattr_t **",
+	  "arg" : "((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_condattr_setclock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_condattr_t*",
+	  "arg" : "((1)"
+  }
+},
+{
+  "method_name" : "pthread_spin_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_spinlock_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_spin_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_spinlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_spin_lock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_spinlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_spin_trylock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_spinlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_spin_unlock",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_spinlock_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_barrier_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_barrier_t*",
+	  "arg" : "const pthread_barrierattr_t*",
+	  "arg" : "unsigned int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_barrier_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_barrier_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_barrier_wait",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_barrier_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_barrierattr_init",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_barrierattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_barrierattr_destroy",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_barrierattr_t ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_barrierattr_getpshared",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const pthread_barrierattr_t **",
+	  "arg" : "int ((1*",
+	  "arg" : "2)"
+  }
+},
+{
+  "method_name" : "pthread_barrierattr_setpshared",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_barrierattr_t*",
+	  "arg" : "int ((1)"
+  }
+},
+{
+  "method_name" : "pthread_key_create",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_key_t*",
+	  "arg" : "void (void *)) ((1)*"
+  }
+},
+{
+  "method_name" : "pthread_key_delete",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_key_t"
+  }
+},
+{
+  "method_name" : "pthread_getspecific",
+  "return_value" : "void*",
+  "arguments" : {
+	  "arg" : "pthread_key_t"
+  }
+},
+{
+  "method_name" : "pthread_setspecific",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_key_t",
+	  "arg" : "const void*"
+  }
+},
+{
+  "method_name" : "pthread_getcpuclockid",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_t",
+	  "arg" : "((2)*"
+  }
+},
+{
+  "method_name" : "pthread_atfork",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void (void)*",
+	  "arg" : "void (void)*",
+	  "arg" : "void (void)*"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "pthread_equal (pthread_t",
+	  "arg" : "pthread_t"
+  }
+}]
+[{
+  "method_name" : "sched_setparam",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const struct sched_param*"
+  }
+},
+{
+  "method_name" : "sched_getparam",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct sched_param*"
+  }
+},
+{
+  "method_name" : "sched_setscheduler",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const struct sched_param*"
+  }
+},
+{
+  "method_name" : "sched_getscheduler",
+  "return_value" : "int",
+  "arguments" : {
+  }
+},
+{
+  "method_name" : "sched_yield",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "sched_get_priority_max",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sched_get_priority_min",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sched_rr_get_interval",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "struct timespec*"
+  }
+},
+{
+  "method_name" : "sched_setaffinity",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "size_t",
+	  "arg" : "const cpu_set_t*"
+  }
+},
+{
+  "method_name" : "sched_getaffinity",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "size_t",
+	  "arg" : "cpu_set_t*"
+  }
+}]
+[{
+  "method_name" : "clone",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int (void*",
+	  "arg" : "void*",
+	  "arg" : "int",
+	  "arg" : "void*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "unshare",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sched_getcpu",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "setns",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__sched_cpucount",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "size_t",
+	  "arg" : "const cpu_set_t*"
+  }
+},
+{
+  "method_name" : "__sched_cpualloc",
+  "return_value" : "cpu_set_t*",
+  "arguments" : {
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "__sched_cpufree",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "cpu_set_t*"
+  }
+}]
+[{
+  "method_name" : "_M_sync(__s,",
+  "return_value" : "array.",
+  "arguments" : {
+	  "arg" : "0"
+  }
+}]
+[{
+  "method_name" : "iswalnum",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswalpha",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswcntrl",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswdigit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswgraph",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswlower",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswprint",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswpunct",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswspace",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswupper",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswxdigit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "iswblank",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "wctype",
+  "return_value" : "wctype_t",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "iswctype",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+	  "arg" : "wctype_t"
+  }
+},
+{
+  "method_name" : "towlower",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "towupper",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "wctrans",
+  "return_value" : "wctrans_t",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "towctrans",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t",
+	  "arg" : "wctrans_t"
+  }
+},
+{
+  "method_name" : "iswalnum_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswalpha_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswcntrl_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswdigit_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswgraph_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswlower_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswprint_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswpunct_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswspace_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswupper_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswxdigit_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "iswblank_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "wctype_l",
+  "return_value" : "wctype_t",
+  "arguments" : {
+	  "arg" : "const char*",
+  }
+},
+{
+  "method_name" : "iswctype_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t",
+	  "arg" : "wctype_t",
+  }
+},
+{
+  "method_name" : "towlower_l",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "towupper_l",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t",
+  }
+},
+{
+  "method_name" : "wctrans_l",
+  "return_value" : "wctrans_t",
+  "arguments" : {
+	  "arg" : "const char*",
+  }
+},
+{
+  "method_name" : "towctrans_l",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t",
+	  "arg" : "wctrans_t",
+  }
+}]
+[{
+  "method_name" : "wcscpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscat",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncat",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsncasecmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "wcsncasecmp_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+  }
+},
+{
+  "method_name" : "wcscoll",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsxfrm",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcscoll_l",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "wcsxfrm_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+  }
+},
+{
+  "method_name" : "wcsdup",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcschr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcsrchr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcschrnul",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcscspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsspn",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcspbrk",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsstr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcstok",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "wcslen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcswcs",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcsnlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemchr",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemcmp",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemmove",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmemset",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "wchar_t",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wmempcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "btowc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "wctob",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "mbsinit",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbrtowc",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcrtomb",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "wchar_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "__mbrlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbrlen",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "__btowc_alias",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "btowc (int"
+  }
+},
+{
+  "method_name" : "__wctob_alias",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wint_t"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wctob (wint_t"
+  }
+},
+{
+  "method_name" : "__NTH",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "mbrlen (const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbsrtowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcsrtombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "mbsnrtowcs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const char*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcsnrtombs",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "char*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "size_t",
+	  "arg" : "mbstate_t*"
+  }
+},
+{
+  "method_name" : "wcwidth",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "wcswidth",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "wcstod",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "wcstof",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "int",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "long",
+  "return_value" : "unsigned",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+  }
+},
+{
+  "method_name" : "wcstod_l",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "wcstof_l",
+  "return_value" : "float",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "double",
+  "return_value" : "long",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "wchar_t*",
+  }
+},
+{
+  "method_name" : "wcpcpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*"
+  }
+},
+{
+  "method_name" : "wcpncpy",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "open_wmemstream",
+  "return_value" : "__FILE*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t*"
+  }
+},
+{
+  "method_name" : "fwide",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "fwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "wprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "swprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vwprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vswprintf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "fwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "wscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "swscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "fwscanf",
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "wscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "swscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "...)",
+  }
+},
+{
+  "method_name" : "__isoc99_fwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_wscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "__isoc99_swscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "vswscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vfwscanf",
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vwscanf",
+	  "arg" : "(const wchar_t*",
+  }
+},
+{
+  "method_name" : "__REDIRECT_NTH",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "vswscanf",
+	  "arg" : "(const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vfwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vwscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "__isoc99_vswscanf",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "const wchar_t*",
+  }
+},
+{
+  "method_name" : "fgetwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwchar",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fputwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwchar",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "fgetws",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputws",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "ungetwc",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wint_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "getwchar_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "fgetwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwc_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "putwchar_unlocked",
+  "return_value" : "wint_t",
+  "arguments" : {
+	  "arg" : "wchar_t"
+  }
+},
+{
+  "method_name" : "fgetws_unlocked",
+  "return_value" : "wchar_t*",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "int",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "fputws_unlocked",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "const wchar_t*",
+	  "arg" : "*"
+  }
+},
+{
+  "method_name" : "wcsftime",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "const struct tm*"
+  }
+},
+{
+  "method_name" : "wcsftime_l",
+  "return_value" : "size_t",
+  "arguments" : {
+	  "arg" : "wchar_t*",
+	  "arg" : "size_t",
+	  "arg" : "const wchar_t*",
+	  "arg" : "const struct tm*",
+  }
+}]
+[{
+  "method_name" : "streamsize",
+  "return_value" : "__ibuf,",
+  "arguments" : {
+	  "arg" : "_CharT**",
+	  "arg" : "streamsize"
+  }
+}]
+[{
+  "method_name" : "gettext",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char (1*"
+  }
+},
+{
+  "method_name" : "dgettext",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char (2*"
+  }
+},
+{
+  "method_name" : "__dgettext",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char (2*"
+  }
+},
+{
+  "method_name" : "dcgettext",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "int (2"
+  }
+},
+{
+  "method_name" : "__dcgettext",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "int (2"
+  }
+},
+{
+  "method_name" : "ngettext",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "unsigned long int (1) (2"
+  }
+},
+{
+  "method_name" : "dngettext",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "unsigned long int (2) (3"
+  }
+},
+{
+  "method_name" : "dcngettext",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "unsigned long int",
+	  "arg" : "int (2) (3"
+  }
+},
+{
+  "method_name" : "textdomain",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "bindtextdomain",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "bind_textdomain_codeset",
+  "return_value" : "char*",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*"
+  }
+}]
+[{
+  "method_name" : "__assert_fail",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "unsigned int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "__assert_perror_fail",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "const char*",
+	  "arg" : "unsigned int",
+	  "arg" : "const char*"
+  }
+},
+{
+  "method_name" : "__assert",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "const char*",
+	  "arg" : "const char*",
+	  "arg" : "int"
+  }
+}]
+[{
+  "method_name" : "__errno_location",
+  "return_value" : "int*",
+  "arguments" : {
+	  "arg" : "void)"
+  }
+}]
+[{
+  "method_name" : "clone",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int (void*",
+	  "arg" : "void*",
+	  "arg" : "int",
+	  "arg" : "void*",
+	  "arg" : "..."
+  }
+},
+{
+  "method_name" : "unshare",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "sched_getcpu",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "void"
+  }
+},
+{
+  "method_name" : "setns",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "int",
+	  "arg" : "int"
+  }
+},
+{
+  "method_name" : "__sched_cpucount",
+  "return_value" : "int",
+  "arguments" : {
+	  "arg" : "size_t",
+	  "arg" : "const cpu_set_t*"
+  }
+},
+{
+  "method_name" : "__sched_cpualloc",
+  "return_value" : "cpu_set_t*",
+  "arguments" : {
+	  "arg" : "size_t"
+  }
+},
+{
+  "method_name" : "__sched_cpufree",
+  "return_value" : "void",
+  "arguments" : {
+	  "arg" : "cpu_set_t*"
+  }
+}]
+[{
+  "method_name" : "__NTH",
+  "return_value" : "double",
+  "arguments" : {
+	  "arg" : "atof (const char*"
+  }
+}]
