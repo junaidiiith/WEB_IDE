@@ -2,19 +2,45 @@ ace.define("ace/snippets/c_cpp",["require","exports","module"], function(require
 "use strict";
 
 exports.snippetText = "## STL Collections\n\
-# std::array\n\
-snippet array\n\
-	std::array<${1:T}, ${2:N}> ${3};${4}\n\
+# main\n\
+snippet main\n\
+	int main(int argc, const char* argv[])\n\
+	{\n\
+		return 0;\n\
+	}\n\
 # std::vector\n\
 snippet vector\n\
-	std::vector<${1:T}> ${2};${3}\n\
+	std::vector<int> v;\n\
 # std::deque\n\
 snippet deque\n\
-	std::deque<${1:T}> ${2};${3}\n\
-# std::forward_list\n\
-snippet flist\n\
-	std::forward_list<${1:T}> ${2};${3}\n\
+	std::deque<int> deque;\n\
+# malloc\n\
+snippet malloc\n\
+	(int *)malloc(sizeof(int));\n\
 # std::list\n\
+snippet for\n\
+	for(int i =0; i < ${1:count}; i++)\n\
+	{\n\
+		${2:/*code*/}\n\
+	}\n\
+snippet if\n\
+	if(/*condition*/)\n\
+	{\n\
+		/*code*/\n\
+	}\n\
+	else if(/*condition*/)\n\
+	{\n\
+		/*code*/\n\
+	}\n\
+	else\n\
+	{\n\
+		/*code*/\n\
+	}\n\
+snippet while\n\
+	while(/*condition*/)\n\
+	{\n\
+		/*code*/\n\
+	}\n\
 snippet list\n\
 	std::list<${1:T}> ${2};${3}\n\
 # std::set\n\
@@ -24,7 +50,7 @@ snippet set\n\
 snippet map\n\
 	std::map<${1:Key}, ${2:T}> ${3};${4}\n\
 # std::multiset\n\
-snippet mset\n\
+snippet Multiset\n\
 	std::multiset<${1:T}> ${2};${3}\n\
 # std::multimap\n\
 snippet mmap\n\
@@ -97,7 +123,7 @@ snippet cout\n\
 	std::cout << ${1} << std::endl;${2}\n\
 # std::cin\n\
 snippet cin\n\
-	std::cin >> ${1};${2}\n\
+	std::cin >> ${1} >> std::endl;\n\
 ##\n\
 ## Iteration\n\
 # for i \n\
