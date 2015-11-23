@@ -12,24 +12,16 @@
         left: 18%;
     }
     #languages {   
-        position: absolute;
+        position: relative;
         top: 10%;
-        right: 68%;
         bottom: 84%;
-        left: 18%;
   }
      #themes {   
-        position: absolute;
+        position: relative;
         top: 10%;
-        right: 36%;
         bottom: 84%;
-<<<<<<< HEAD
-        left: 76%;
   }
-=======
-        left: 74%;
 	}
->>>>>>> 329c14a0feb5d474f77b9143bf5c4864a66bb419
      .img {
    position: absolute;    
   width: 100%;
@@ -62,97 +54,12 @@
 <script src={% static 'bootstrap.min.js' %} type='text/javascript' charset='utf-8'></script>
 <link rel="stylesheet" href={% static 'bootstrap.min.css' %} charset='utf-8'>
 <script src={% static 'jquery-2.0.3.min.js' %} type='text/javascript' charset='utf-8'></script>
-<script>
+<script src={% static 'index.js' %} type="text/javascript"></script>
+<script src={% static 'enableIntellisense.js' %} type="text/javascript"></script>
+<script type="text/javascript">
 $(window).unload(function() {
   $('select option').remove();
 });
-    var lang="";
-    var libc="";
-    var len = 0;
-    var langTools = ace.require("ace/ext/language_tools");
-    var editor = ace.edit("editor");
-    editor.setTheme("ace/theme/monokai");
-    var snippetManager = ace.require("ace/snippets").snippetManager;
-    chagLang = function ()
-    {
-      temp = document.getElementById("languages");
-      lang = temp.options[temp.selectedIndex].value;
-      console.log(lang);
-      var langpath = "ace/mode/";
-      editor.getSession().setMode(langpath.concat(lang));
-    }
-
-    chagTheme = function ()
-    {
-      get_theme = document.getElementById("themes");
-      theme = get_theme.options[get_theme.selectedIndex].value;
-      console.log(theme);
-      var theme_path = "ace/theme/";
-      editor.setTheme(theme_path.concat(theme));
-    }
-
-
-
-    var functionExtractor = {
-        getCompletions: function(editor, session, pos, prefix, callback) {
-            $(function (){
-              var iurl = "data/";
-              iurl = iurl.concat(lang);
-              iurl = iurl.concat("/");
-              if (lang=="c_cpp") 
-              {
-                iurl = iurl.concat(libc);
-                console.log(iurl);
-              }
-                $.ajax({
-                datatype: "json",
-                type:'GET',
-                url: iurl,
-                success: function(data){
-                  cstring = jQuery.parseJSON(data);
-                callback(null, cstring.map(function(fn){
-                  if(fn.fields.method_name.indexOf(prefix)>-1)
-                  {
-                    console.log("Script ran successfully");
-                  }
-                  return {name: fn.fields.method_name, value: fn.fields.method_name, score:0, meta: "functions"}; 
-                }));
-              }
-              }); 
-
-          });
-        }
-    }
-      window.setInterval(function()
-      {
-        if(lang=="c_cpp")
-        {
-          var code = editor.getValue();
-          var temp = code.match(/#include[ ]*<[a-z.]+>/g);
-          if(temp.length > len)
-          {
-            for(var i = len; i< temp.length ;i++)
-            {
-              var foo = temp[i].match(/[a-z]+.h/g);
-              console.log(foo[0]);  
-              libc = libc.concat(foo[0]).concat(",");
-            }
-            len = temp.length;
-          }
-          else if(temp.length < len)
-          {
-            len = temp.length;
-          }
-          console.log(libc);
-        }
-      }, 1000);
-    langTools.addCompleter(functionExtractor);
-    editor.setOptions
-      ({
-       enableBasicAutocompletion: true,
-       enableLiveAutocompletion: true,
-       enableSnippets: true,
-      });
 </script>
 </body>
 </html>
