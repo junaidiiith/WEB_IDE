@@ -17,19 +17,24 @@
         right: 68%;
         bottom: 84%;
         left: 18%;
-	}
+  }
      #themes {   
         position: absolute;
         top: 10%;
-        right: 38%;
+        right: 36%;
         bottom: 84%;
+<<<<<<< HEAD
         left: 76%;
+  }
+=======
+        left: 74%;
 	}
+>>>>>>> 329c14a0feb5d474f77b9143bf5c4864a66bb419
      .img {
-	 position: absolute;	  
-	width: 100%;
-	height: 100%;
-	}		
+   position: absolute;    
+  width: 100%;
+  height: 100%;
+  }   
     
 </style>
 </head>
@@ -44,12 +49,13 @@
 <select id="themes" onchange="chagTheme()">
   <option selected="selected" value="monokai" >Monokai</option>
   <option value="clouds">Clouds</option>
+  <option value="katzenmilch">Katzenmilch</option>
 </select>
 
-<div id="editor">//Your code goes here..
+<div id="editor">
 </div>
 {% load staticfiles %}
-<img id="img1" src={% static '12.jpeg' %} alt="Mountain View" style="width:100%;height:100%;">
+<img id="img1" src={% static '198.png' %} alt="AssessMachines Logo" style="width:100%;height:100%;">
 <script src={% static 'src-noconflict/ace.js' %} type='text/javascript' charset='utf-8'></script>
 <script src={% static 'src-noconflict/ext-language_tools.js' %} type='text/javascript' charset='utf-8'></script>
 <script src={% static 'funcSignatures.js' %} type='text/javascript' charset='utf-8'></script>
@@ -66,7 +72,7 @@ $(window).unload(function() {
     var langTools = ace.require("ace/ext/language_tools");
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
-
+    var snippetManager = ace.require("ace/snippets").snippetManager;
     chagLang = function ()
     {
       temp = document.getElementById("languages");
@@ -93,8 +99,11 @@ $(window).unload(function() {
               var iurl = "data/";
               iurl = iurl.concat(lang);
               iurl = iurl.concat("/");
-              iurl = iurl.concat(libc);
-              console.log(iurl);
+              if (lang=="c_cpp") 
+              {
+                iurl = iurl.concat(libc);
+                console.log(iurl);
+              }
                 $.ajax({
                 datatype: "json",
                 type:'GET',
@@ -141,7 +150,8 @@ $(window).unload(function() {
     editor.setOptions
       ({
        enableBasicAutocompletion: true,
-       enableLiveAutocompletion: true
+       enableLiveAutocompletion: true,
+       enableSnippets: true,
       });
 </script>
 </body>
