@@ -49,3 +49,7 @@ Instructions for server side installations
 
 4) use output.txt file in Extractor directory in source . It contains the json data for java as we require
 
+5) For generating data for c simply run the extract.py in source folder. IT will add the required json data in directory Json_data.
+   Under directory c_cpp_libraries, for defferent libraries, it creates json format for that library.
+
+6) For adding the json data on django database, use coommand python manage.py seeddatabase 
