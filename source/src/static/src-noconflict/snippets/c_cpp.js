@@ -2,30 +2,62 @@ ace.define("ace/snippets/c_cpp",["require","exports","module"], function(require
 "use strict";
 
 exports.snippetText = "## STL Collections\n\
-# std::array\n\
-snippet array\n\
-	std::array<${1:T}, ${2:N}> ${3};${4}\n\
+# main\n\
+snippet main\n\
+	int main(int argc, const char* argv[])\n\
+	{\n\
+		${1:/*code*/}\n\
+		return 0;\n\
+	}\n\
+# printf\n\
+snippet printf\n\
+	printf(\"${1:%d}\",);\n\
+# scanf\n\
+snippet scanf\n\
+	scanf(\"${1:%d}\",);\n\
 # std::vector\n\
 snippet vector\n\
-	std::vector<${1:T}> ${2};${3}\n\
+	std::vector<${1:int}> v;\n\
 # std::deque\n\
 snippet deque\n\
-	std::deque<${1:T}> ${2};${3}\n\
-# std::forward_list\n\
-snippet flist\n\
-	std::forward_list<${1:T}> ${2};${3}\n\
-# std::list\n\
+	std::deque<int> deque;\n\
+# malloc\n\
+snippet malloc\n\
+	(${1:int} *)malloc(sizeof(${1:int}));\n\
+snippet for\n\
+	for(int i = 0; i < ${1:count}; i++)\n\
+	{\n\
+		${2:/*code*/}\n\
+	}\n\
+snippet if\n\
+	if(/*condition*/)\n\
+	{\n\
+		/*code*/\n\
+	}\n\
+	else if(/*condition*/)\n\
+	{\n\
+		/*code*/\n\
+	}\n\
+	else\n\
+	{\n\
+		/*code*/\n\
+	}\n\
+snippet while\n\
+	while(${1:/*condition*/})\n\
+	{\n\
+		${2:/*code*/}\n\
+	}\n\
 snippet list\n\
-	std::list<${1:T}> ${2};${3}\n\
+	std::list<${1:int}> lt\n\
 # std::set\n\
 snippet set\n\
-	std::set<${1:T}> ${2};${3}\n\
+	std::set<${1:int}> st;\n\
 # std::map\n\
 snippet map\n\
 	std::map<${1:Key}, ${2:T}> ${3};${4}\n\
 # std::multiset\n\
-snippet mset\n\
-	std::multiset<${1:T}> ${2};${3}\n\
+snippet Multiset\n\
+	std::multiset<${1:int}> \n\
 # std::multimap\n\
 snippet mmap\n\
 	std::multimap<${1:Key}, ${2:T}> ${3};${4}\n\
@@ -43,31 +75,14 @@ snippet ummap\n\
 	std::unordered_multimap<${1:Key}, ${2:T}> ${3};${4}\n\
 # std::stack\n\
 snippet stack\n\
-	std::stack<${1:T}> ${2};${3}\n\
+	std::stack<${1:int}> s;\n\
 # std::queue\n\
 snippet queue\n\
-	std::queue<${1:T}> ${2};${3}\n\
+	std::queue<${1:int}> q;\n\
 # std::priority_queue\n\
 snippet pqueue\n\
 	std::priority_queue<${1:T}> ${2};${3}\n\
 ##\n\
-## Access Modifiers\n\
-# private\n\
-snippet pri\n\
-	private\n\
-# protected\n\
-snippet pro\n\
-	protected\n\
-# public\n\
-snippet pub\n\
-	public\n\
-# friend\n\
-snippet fr\n\
-	friend\n\
-# mutable\n\
-snippet mu\n\
-	mutable\n\
-## \n\
 ## Class\n\
 # class\n\
 snippet cl\n\
@@ -97,7 +112,7 @@ snippet cout\n\
 	std::cout << ${1} << std::endl;${2}\n\
 # std::cin\n\
 snippet cin\n\
-	std::cin >> ${1};${2}\n\
+	std::cin >> ${1} >> std::endl;\n\
 ##\n\
 ## Iteration\n\
 # for i \n\
