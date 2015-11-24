@@ -1,0 +1,51 @@
+Instructions for server side installations
+
+1) install django   
+   visit https://docs.djangoproject.com/en/1.8/topics/install/ for detailed instructions 
+
+2) move to Extractor directory in source folder .
+
+3) Open the project named assembly in Extractor folder in source directory in Mono - develop and run the project 
+
+	the output file will be generated in the directory of your project
+
+			OR
+
+3) use Program.cs file to get function list in json format in csharp.
+   
+   It is advisible to use Mono - develop for easy and reliable use of the program.
+
+   NOte : make sure you use proper class names as per your project name in csharp IDE you are using. The program uses "assembly" as project name
+          make sure to add external dll file Newtonsoft.Json.dll in your project. 
+          for mono-develop use the following instructions : 
+		-> In your project there should be a folder called References. Right click it and choose edit references. 
+		-> Then check the box next to the package you want to add
+
+
+  the output file will be generated in the directory of your project
+
+  Or use final_csharp.json . It is the json file for csharp function signatures that we require
+
+4) use Reflect.java program to get function list in json format in java
+
+   NOTE: make sure you use proper class names and package names in java IDE you are using. The program is using project name "Refletion" and 
+	 package name "Reflection" and class name "reflect"
+	 configure the outpt path in your respective IDE you are using for java 
+	 add the two jar files json-simple-1.1.1.jar and bcel-5.2.jar to your project
+
+  It is advisable to use eclipse for easy use
+ 
+  Following are instructions for eclipse IDE 
+   1) create a java project by name "reflection"
+   2) rename the present package as "reflection"
+   3) add a class by right clicking on your project name and name it "reflect"
+   4) set your output path by using the following path in project
+	run -> run configurations -> Common 
+   5) add external jars use :
+	project -> properties -> Java Build Path -> Libraries -> Add external JARs
+   6) use program "Reflect.java" to get the desired output
+
+			OR
+
+4) use output.txt file in Extractor directory in source . It contains the json data for java as we require
+
