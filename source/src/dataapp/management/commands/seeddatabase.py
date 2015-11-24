@@ -52,6 +52,13 @@ class Command(BaseCommand):
             for function_str in functions:
                 function = json.loads(function_str)
                 last_inserted_class_id += 1
+                class_name = function['class_name']
+                class_count = cursor.execute('select count(*) from dataapp_class_table where class_name = ?', (class_name,))
+                if class_count == 1:
+                    continue;
+                else:
+                    func_data = (str(function['class_name']), last_inserted_class_id, 2)
+                    cursor.execute('insert into dataapp_class_table (class_name,class_id_value,language_id) Values(?,?,?)', func_data)
                 try:
                     arguments = ""
                     for param in function['parameters']:
@@ -76,6 +83,14 @@ class Command(BaseCommand):
             for function_str in functions:
                 function = json.loads(function_str)
                 last_inserted_class_id += 1
+                last_inserted_class_id += 1
+                class_name = function['class_name']
+                class_count = cursor.execute('select count(*) from dataapp_class_table where class_name = ?', (class_name,))
+                if class_count == 1:
+                    continue;
+                else:
+                    func_data = (str(function['Class Name']), last_inserted_class_id, 1)
+                    cursor.execute('insert into dataapp_class_table (class_name,class_id_value,language_id) Values(?,?,?)', func_data)
                 try:
                     arguments = ""
                     for param in function['Arguments_types']:
