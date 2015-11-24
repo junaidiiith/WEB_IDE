@@ -43,8 +43,7 @@ class Command(BaseCommand):
             # feeding c-sharp data
             print "Inserting c# data in database..."
             pattern = re.compile(r"\{.*\}",re.UNICODE)
-            #function_file = open('../Extractor/Json_data/csharp_data')
-            function_file = open('../Extractor/Json_data/csharp_small_data')
+            function_file = open('../Extractor/Json_data/csharp_data')
             functions = pattern.findall(function_file.read())
             """
             reader = function_file.read().replace("}\n", "},")
@@ -68,8 +67,7 @@ class Command(BaseCommand):
             # feeding java data
             print "Inserting java data in database..."
             pattern = re.compile(r"\{.*\}",re.UNICODE)
-            #function_file = open('../Extractor/Json_data/java_data')
-            function_file = open('../Extractor/Json_data/java_small_data')
+            function_file = open('../Extractor/Json_data/java_data')
             functions = pattern.findall(function_file.read())
             """
             reader = function_file.read().replace("}\n", "},")
