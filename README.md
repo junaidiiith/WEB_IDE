@@ -1,3 +1,3 @@
 ## IMPORTANT
 
-This branch contains all the work done till Release-1  
+This project is made for AssessMachines. The project is finished and all the requirements and SRS document are cross checked.
