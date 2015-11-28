@@ -43,8 +43,7 @@ class Command(BaseCommand):
             # feeding c-sharp data
             print "Inserting c# data in database..."
             pattern = re.compile(r"\{.*\}",re.UNICODE)
-            #function_file = open('../Extractor/Json_data/csharp_data')
-            function_file = open('../Extractor/Json_data/csharp_small_data')
+            function_file = open('../Extractor/Json_data/csharp_data')
             functions = pattern.findall(function_file.read())
             """
             reader = function_file.read().replace("}\n", "},")
@@ -53,6 +52,13 @@ class Command(BaseCommand):
             for function_str in functions:
                 function = json.loads(function_str)
                 last_inserted_class_id += 1
+                class_name = function['class_name']
+                class_count = cursor.execute('select count(*) from dataapp_class_table where class_name = ?', (class_name,))
+                if class_count == 1:
+                    continue;
+                else:
+                    func_data = (str(function['class_name']), last_inserted_class_id, 2)
+                    cursor.execute('insert into dataapp_class_table (class_name,class_id_value,language_id) Values(?,?,?)', func_data)
                 try:
                     arguments = ""
                     for param in function['parameters']:
@@ -68,8 +74,7 @@ class Command(BaseCommand):
             # feeding java data
             print "Inserting java data in database..."
             pattern = re.compile(r"\{.*\}",re.UNICODE)
-            #function_file = open('../Extractor/Json_data/java_data')
-            function_file = open('../Extractor/Json_data/java_small_data')
+            function_file = open('../Extractor/Json_data/java_data')
             functions = pattern.findall(function_file.read())
             """
             reader = function_file.read().replace("}\n", "},")
@@ -78,6 +83,14 @@ class Command(BaseCommand):
             for function_str in functions:
                 function = json.loads(function_str)
                 last_inserted_class_id += 1
+                last_inserted_class_id += 1
+                class_name = function['class_name']
+                class_count = cursor.execute('select count(*) from dataapp_class_table where class_name = ?', (class_name,))
+                if class_count == 1:
+                    continue;
+                else:
+                    func_data = (str(function['Class Name']), last_inserted_class_id, 1)
+                    cursor.execute('insert into dataapp_class_table (class_name,class_id_value,language_id) Values(?,?,?)', func_data)
                 try:
                     arguments = ""
                     for param in function['Arguments_types']:
